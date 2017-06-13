@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		83E7F3941EEFF6990017A39B /* GPValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E7F38E1EEFF1250017A39B /* GPValidator.framework */; };
 		E875B837A39014EB0DD63A55 /* Pods_GPValidator_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CE59A314DA3A493390B7B1 /* Pods_GPValidator_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +31,7 @@
 /* Begin PBXFileReference section */
 		20056CFBC357C6159079893D /* Pods-GPValidator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPValidator_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPValidator_Example/Pods-GPValidator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2E2B2731FF78C85784E6450F /* Pods-GPValidator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPValidator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPValidator_Tests/Pods-GPValidator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		31BA1791977ABBF8CF35E207 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		31BA1791977ABBF8CF35E207 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GPValidator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPValidator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,10 +42,11 @@
 		607FACE51AFB9204008FA782 /* GPValidator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPValidator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		83E7F38E1EEFF1250017A39B /* GPValidator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GPValidator.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/GPValidator-gpgvxtpvgxvmgkcbflpzfhxvoxnu/Build/Products/Debug-iphonesimulator/GPValidator/GPValidator.framework"; sourceTree = "<group>"; };
 		90CE59A314DA3A493390B7B1 /* Pods_GPValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPValidator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A049421B910D46B08A12E3A0 /* GPValidator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GPValidator.podspec; path = ../GPValidator.podspec; sourceTree = "<group>"; };
+		A049421B910D46B08A12E3A0 /* GPValidator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GPValidator.podspec; path = ../GPValidator.podspec; sourceTree = "<group>"; };
 		B85D7E29F5A5B5DAE05AAA53 /* Pods-GPValidator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPValidator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPValidator_Example/Pods-GPValidator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F4AA83DFB7EFF14B86BFC7AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F4AA83DFB7EFF14B86BFC7AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F671971225B7727680AA26E3 /* Pods_GPValidator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPValidator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC86C86FA1E266320171C02 /* Pods-GPValidator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPValidator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPValidator_Tests/Pods-GPValidator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E7F3941EEFF6990017A39B /* GPValidator.framework in Frameworks */,
 				4B68A8BBA3912790CFDDC263 /* Pods_GPValidator_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +156,7 @@
 		EBCA059F6F04EA06DFD56F2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				83E7F38E1EEFF1250017A39B /* GPValidator.framework */,
 				F671971225B7727680AA26E3 /* Pods_GPValidator_Example.framework */,
 				90CE59A314DA3A493390B7B1 /* Pods_GPValidator_Tests.framework */,
 			);

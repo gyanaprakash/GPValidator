@@ -7,11 +7,18 @@
 //
 
 import UIKit
+import GPValidator
+
 
 class ViewController: UIViewController {
 
+    var testVar : Test!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        testVar.testPrint()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
