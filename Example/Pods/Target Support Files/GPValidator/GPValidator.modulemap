@@ -1,0 +1,6 @@
+framework module GPValidator {
+  umbrella header "GPValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}
